@@ -1,6 +1,6 @@
 <?php
 
-namespace App;
+namespace Model;
 
 /*Active Record   
   Patron de arquitectura para aplicaciones que almacena datos en BD Y CRUD
