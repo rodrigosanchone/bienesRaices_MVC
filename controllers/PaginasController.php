@@ -5,7 +5,7 @@ namespace Controllers;
 use MVC\Router;
 use Model\Propiedad;
 use PHPMailer\PHPMailer\PHPMailer;
-use PHPMailer\PHPMailer\SMTP;
+//use PHPMailer\PHPMailer\SMTP;
 
 
 
@@ -114,7 +114,7 @@ class PaginasController
                 $mail->CharSet= 'UTF-8';
                 $mail->Subject = 'Here is the subject';
                 $mail->Body    = $contenido;
-                $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
+                $mail->AltBody = 'Este es un mensaje ';
 
            
             

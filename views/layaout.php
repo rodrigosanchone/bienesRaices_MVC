@@ -52,12 +52,12 @@ if(!isset($inicio)){
               Contacto
             </a>
             <?php if (!$auth) : ?>
-            <a href="/">
+            <a href="/login">
               Login
             </a>
             <?php endif; ?>
             <?php if ($auth) : ?>
-              <a href="/cerrar-sesion.php">
+              <a href="/logout">
                  Cerrar Sesión
               </a>
             <?php endif; ?>
